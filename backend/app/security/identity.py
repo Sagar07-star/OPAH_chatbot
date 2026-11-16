@@ -110,7 +110,7 @@ def set_session_cookie(response: Response, session: Session) -> str:
         max_age=settings.session_days * 86400,
         httponly=True,
         samesite="lax",
-        secure=False,
+        secure=settings.environment == "production",
         path="/",
     )
     return token
