@@ -25,7 +25,7 @@ def _find_root(start: Path) -> Path:
 BACKEND_DIR = Path(__file__).resolve().parents[1]
 PROJECT_ROOT = _find_root(BACKEND_DIR)
 KIT_DIR = PROJECT_ROOT / "createchat-prototype-kit"
-VAR_DIR = BACKEND_DIR / "var"
+VAR_DIR = (Path("/tmp/createchat") if os.environ.get("VERCEL") else BACKEND_DIR / "var")
 
 
 def _load_env() -> dict[str, str]:
