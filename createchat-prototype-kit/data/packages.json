@@ -1,0 +1,170 @@
+[
+  {
+    "id": "pkg_listing_starter",
+    "category": "Photography",
+    "title": "Listing Media Starter",
+    "price": 349,
+    "duration": "1.5 hours on site",
+    "deliverables": [
+      "25 edited photos"
+    ],
+    "includes": [
+      "Interior and exterior",
+      "HDR editing",
+      "Delivery in 48 hours"
+    ],
+    "add_ons": [
+      {
+        "code": "DRONE",
+        "label": "Drone aerials",
+        "price": 150
+      },
+      {
+        "code": "RUSH_48H",
+        "label": "48-hour delivery",
+        "price": 120
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Photographer",
+    "specialty": "Real Estate"
+  },
+  {
+    "id": "pkg_headshot_express",
+    "category": "Photography",
+    "title": "Headshot Express",
+    "price": 249,
+    "duration": "45 minutes",
+    "deliverables": [
+      "5 retouched headshots"
+    ],
+    "includes": [
+      "Two looks",
+      "Studio or on location"
+    ],
+    "add_ons": [
+      {
+        "code": "RUSH_48H",
+        "label": "48-hour delivery",
+        "price": 120
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Photographer",
+    "specialty": "Portrait"
+  },
+  {
+    "id": "pkg_product_pack",
+    "category": "Photography",
+    "title": "Product Photo Pack",
+    "price": 449,
+    "duration": "Half day",
+    "deliverables": [
+      "15 edited product photos"
+    ],
+    "includes": [
+      "White background and lifestyle",
+      "Up to 8 products"
+    ],
+    "add_ons": [
+      {
+        "code": "RUSH_48H",
+        "label": "48-hour delivery",
+        "price": 120
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Photographer",
+    "specialty": "Product"
+  },
+  {
+    "id": "pkg_event_reel",
+    "category": "Video",
+    "title": "Event Hype Reel",
+    "price": 599,
+    "duration": "2 hours on site",
+    "deliverables": [
+      "60-second highlight reel"
+    ],
+    "includes": [
+      "Licensed music",
+      "One revision"
+    ],
+    "add_ons": [
+      {
+        "code": "EXTRA_HOUR",
+        "label": "Extra hour on site",
+        "price": 175
+      },
+      {
+        "code": "VERTICAL_CUTS",
+        "label": "Three vertical social cuts",
+        "price": 200
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Videographer",
+    "specialty": "Event"
+  },
+  {
+    "id": "pkg_business_promo",
+    "category": "Video",
+    "title": "Business Promo Reel",
+    "price": 899,
+    "duration": "3 hours on site",
+    "deliverables": [
+      "90-second promo",
+      "Three 15-second cuts"
+    ],
+    "includes": [
+      "Interview audio",
+      "Color grade"
+    ],
+    "add_ons": [
+      {
+        "code": "DRONE",
+        "label": "Drone aerials",
+        "price": 150
+      },
+      {
+        "code": "VERTICAL_CUTS",
+        "label": "Three vertical social cuts",
+        "price": 200
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Videographer",
+    "specialty": "Commercial"
+  },
+  {
+    "id": "pkg_social_day",
+    "category": "Video",
+    "title": "Social Content Day",
+    "price": 1199,
+    "duration": "6 hours on site",
+    "deliverables": [
+      "10 vertical videos",
+      "30 photos"
+    ],
+    "includes": [
+      "Shot list planning call",
+      "Two locations"
+    ],
+    "add_ons": [
+      {
+        "code": "EXTRA_HOUR",
+        "label": "Extra hour on site",
+        "price": 175
+      }
+    ],
+    "needs_location": true,
+    "needs_call_time": true,
+    "role": "Videographer",
+    "specialty": "Social Media"
+  }
+]

@@ -1,0 +1,206 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --canvas: 255 255 255;
+    --surface: 247 247 244;
+    --ink: 23 26 25;
+    --body: 62 68 65;
+    --muted: 110 116 111;
+    --faint: 152 158 152;
+    --line: 232 232 227;
+    --line-strong: 214 214 206;
+    --accent: 47 91 76;
+    --accent-soft: 234 241 236;
+    --accent-ink: 31 60 50;
+    --accent-ring: 143 179 165;
+    --warning: 168 106 32;
+    --warning-soft: 253 243 227;
+    --danger: 168 71 60;
+    --danger-soft: 251 236 234;
+    --info: 60 90 134;
+    --info-soft: 237 242 249;
+    --shadow: 23 26 25;
+    color-scheme: light;
+  }
+
+  .dark {
+    --canvas: 15 17 16;
+    --surface: 24 27 25;
+    --ink: 240 242 239;
+    --body: 201 205 201;
+    --muted: 154 161 155;
+    --faint: 110 117 111;
+    --line: 39 44 40;
+    --line-strong: 55 61 56;
+    --accent: 111 183 154;
+    --accent-soft: 27 42 36;
+    --accent-ink: 191 227 210;
+    --accent-ring: 78 143 118;
+    --warning: 224 170 96;
+    --warning-soft: 58 44 28;
+    --danger: 224 131 118;
+    --danger-soft: 61 35 32;
+    --info: 143 176 222;
+    --info-soft: 28 39 53;
+    --shadow: 0 0 0;
+    color-scheme: dark;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-canvas text-body antialiased;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply text-ink;
+    letter-spacing: -0.014em;
+  }
+
+  ::selection {
+    background: rgb(var(--accent-soft));
+    color: rgb(var(--accent-ink));
+  }
+
+  *:focus-visible {
+    @apply outline-none ring-2 ring-accent-ring ring-offset-2 ring-offset-canvas;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-line bg-surface shadow-card;
+  }
+
+  .card-pad {
+    @apply p-5;
+  }
+
+  .eyebrow {
+    @apply text-2xs font-semibold uppercase tracking-[0.14em] text-faint;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-lg border border-line bg-surface px-3 py-1.5
+      text-[13px] font-medium text-ink transition-colors duration-150 hover:border-line-strong hover:bg-canvas
+      disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-primary {
+    @apply border-transparent bg-ink text-canvas hover:border-transparent hover:bg-ink/90;
+  }
+
+  .btn-accent {
+    @apply border-transparent bg-accent text-canvas hover:border-transparent hover:bg-accent/90;
+  }
+
+  .btn-ghost {
+    @apply border-transparent bg-transparent text-muted hover:bg-surface hover:text-ink;
+  }
+
+  .btn-danger {
+    @apply border-transparent bg-danger text-canvas hover:border-transparent hover:bg-danger/90;
+  }
+
+  .field {
+    @apply w-full rounded-lg border border-line bg-surface px-3 py-2 text-[13px] text-ink
+      placeholder:text-faint focus:border-accent-ring focus:outline-none focus:ring-2 focus:ring-accent-soft;
+  }
+
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full border border-line bg-canvas px-2 py-0.5
+      text-[11px] font-medium text-muted;
+  }
+
+  .divider {
+    @apply h-px w-full bg-line;
+  }
+
+  .scroll-area {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--line-strong)) transparent;
+  }
+
+  .scroll-area::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scroll-area::-webkit-scrollbar-thumb {
+    background: rgb(var(--line-strong));
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .prose-chat {
+    @apply whitespace-pre-wrap text-[14px] leading-[1.65] text-body;
+  }
+
+  .prose-md h1 {
+    @apply mb-2 mt-3 text-[17px] font-semibold text-ink;
+  }
+
+  .prose-md h2 {
+    @apply mb-1.5 mt-3 text-[15px] font-semibold text-ink;
+  }
+
+  .prose-md h3 {
+    @apply mb-1 mt-2 text-[13px] font-semibold text-ink;
+  }
+
+  .prose-md p {
+    @apply mb-2 text-[13px] leading-relaxed;
+  }
+
+  .prose-md ul,
+  .prose-md ol {
+    @apply mb-2 ml-4 space-y-1 text-[13px];
+  }
+
+  .prose-md ul {
+    @apply list-disc;
+  }
+
+  .prose-md ol {
+    @apply list-decimal;
+  }
+
+  .prose-md strong {
+    @apply font-semibold text-ink;
+  }
+
+  .prose-md table {
+    @apply mb-2 w-full border-collapse text-[12px];
+  }
+
+  .prose-md th {
+    @apply border-b border-line px-2 py-1 text-left font-semibold text-ink;
+  }
+
+  .prose-md td {
+    @apply border-b border-line/70 px-2 py-1 align-top;
+  }
+
+  .prose-md code {
+    @apply rounded bg-canvas px-1 py-0.5 font-mono text-[11.5px];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "id": "tkt_0001",
+    "client_id": "clt_001",
+    "subject": "Receipt shows the wrong company name",
+    "category": "billing",
+    "status": "waiting_on_team",
+    "status_label": "With our team",
+    "created_at": "2026-11-13",
+    "updated_at": "2026-11-14"
+  }
+]

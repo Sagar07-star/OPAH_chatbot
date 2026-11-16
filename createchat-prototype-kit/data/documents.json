@@ -1,0 +1,11 @@
+[
+  {
+    "id": "doc_4001",
+    "project_id": "prj_1004",
+    "type": "shot_list",
+    "title": "Shot list",
+    "version": 2,
+    "shared_with_talent": false,
+    "content_md": "| # | Scene | Shot type | Subject | Notes |\n| --- | --- | --- | --- | --- |\n| 1 | Bathroom counter | Macro | Serum drop | Slow motion |\n| 2 | Pool deck | Wide | Model applying | Golden hour |\n| 3 | Studio | Hero | Bottle on plinth | White sweep |"
+  }
+]

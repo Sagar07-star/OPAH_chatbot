@@ -1,0 +1,42 @@
+[
+  {
+    "id": "msg_0001",
+    "project_id": "prj_1004",
+    "sender": "talent",
+    "sender_id": "tal_014",
+    "text": "Hi Maya, could we move to Sunday, Nov 22? The pool deck is booked on Saturday, Nov 21.",
+    "sent_at": "2026-11-15"
+  },
+  {
+    "id": "msg_0002",
+    "project_id": "prj_1004",
+    "sender": "client",
+    "sender_id": "clt_001",
+    "text": "Let me check with the venue and get back to you today.",
+    "sent_at": "2026-11-15"
+  },
+  {
+    "id": "msg_0003",
+    "project_id": "prj_1005",
+    "sender": "talent",
+    "sender_id": "tal_006",
+    "text": "On my way, arriving 17:30 to scout the light.",
+    "sent_at": "2026-11-16"
+  },
+  {
+    "id": "msg_0004",
+    "project_id": "prj_1006",
+    "sender": "talent",
+    "sender_id": "tal_001",
+    "text": "Studio set is resubmitted with warmer tones on 03 and 05.",
+    "sent_at": "2026-11-15"
+  },
+  {
+    "id": "msg_0005",
+    "project_id": "prj_2002",
+    "sender": "talent",
+    "sender_id": "tal_011",
+    "text": "I'll bring a grey backdrop unless you prefer white.",
+    "sent_at": "2026-11-14"
+  }
+]

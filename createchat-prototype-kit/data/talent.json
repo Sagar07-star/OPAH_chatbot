@@ -1,0 +1,1518 @@
+[
+  {
+    "id": "tal_001",
+    "first_name": "Hana",
+    "last_name": "Lowell",
+    "display_name": "Hana L.",
+    "role": "Photographer",
+    "specialty": "Commercial",
+    "secondary_specialties": [
+      "Food",
+      "Product"
+    ],
+    "city": "Fort Lauderdale, FL",
+    "styles": [
+      "warm film",
+      "editorial",
+      "cinematic"
+    ],
+    "day_rate": 600,
+    "experience_years": 2,
+    "equipment": [
+      "Nikon Z8",
+      "Canon R5",
+      "24-70mm f/2.8"
+    ],
+    "bio": "Photographer based in Fort Lauderdale with 2 years of commercial work. Known for a warm film look.",
+    "rating": 4.4,
+    "completed_projects": 46,
+    "portfolio": [
+      {
+        "id": "tal_001_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_001-1/1200/800",
+        "title": "Commercial work 1"
+      },
+      {
+        "id": "tal_001_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_001-2/1200/800",
+        "title": "Commercial work 2"
+      },
+      {
+        "id": "tal_001_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_001-3/1200/800",
+        "title": "Commercial work 3"
+      },
+      {
+        "id": "tal_001_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_001-4/1200/800",
+        "title": "Commercial work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-06",
+      "2026-12-12",
+      "2026-12-26"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_002",
+    "first_name": "Caleb",
+    "last_name": "Batista",
+    "display_name": "Caleb B.",
+    "role": "Photographer",
+    "specialty": "Product",
+    "secondary_specialties": [
+      "Event",
+      "Wedding"
+    ],
+    "city": "West Palm Beach, FL",
+    "styles": [
+      "editorial",
+      "high fashion",
+      "moody"
+    ],
+    "day_rate": 600,
+    "experience_years": 5,
+    "equipment": [
+      "Canon R5",
+      "Backdrop kit",
+      "24-70mm f/2.8"
+    ],
+    "bio": "Photographer based in West Palm Beach with 5 years of product work. Known for a editorial look.",
+    "rating": 4.7,
+    "completed_projects": 18,
+    "portfolio": [
+      {
+        "id": "tal_002_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_002-1/1200/800",
+        "title": "Product work 1"
+      },
+      {
+        "id": "tal_002_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_002-2/1200/800",
+        "title": "Product work 2"
+      },
+      {
+        "id": "tal_002_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_002-3/1200/800",
+        "title": "Product work 3"
+      },
+      {
+        "id": "tal_002_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_002-4/1200/800",
+        "title": "Product work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-11",
+      "2026-11-24",
+      "2026-12-07",
+      "2026-12-12",
+      "2026-12-21"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_003",
+    "first_name": "Jonah",
+    "last_name": "Ferreira",
+    "display_name": "Jonah F.",
+    "role": "Photographer",
+    "specialty": "Portrait",
+    "secondary_specialties": [
+      "Food",
+      "Real Estate"
+    ],
+    "city": "Coral Gables, FL",
+    "styles": [
+      "editorial",
+      "high fashion",
+      "bold color"
+    ],
+    "day_rate": 450,
+    "experience_years": 6,
+    "equipment": [
+      "Backdrop kit",
+      "Canon R5",
+      "Sony A7 IV"
+    ],
+    "bio": "Photographer based in Coral Gables with 6 years of portrait work. Known for a editorial look.",
+    "rating": 4.3,
+    "completed_projects": 25,
+    "portfolio": [
+      {
+        "id": "tal_003_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_003-1/1200/800",
+        "title": "Portrait work 1"
+      },
+      {
+        "id": "tal_003_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_003-2/1200/800",
+        "title": "Portrait work 2"
+      },
+      {
+        "id": "tal_003_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_003-3/1200/800",
+        "title": "Portrait work 3"
+      },
+      {
+        "id": "tal_003_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_003-4/1200/800",
+        "title": "Portrait work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-25",
+      "2026-12-06",
+      "2026-12-14",
+      "2026-12-20",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_004",
+    "first_name": "Leila",
+    "last_name": "Castillo",
+    "display_name": "Leila C.",
+    "role": "Photographer",
+    "specialty": "Fashion",
+    "secondary_specialties": [
+      "Food",
+      "Product"
+    ],
+    "city": "Boca Raton, FL",
+    "styles": [
+      "bright and airy",
+      "cinematic",
+      "clean commercial"
+    ],
+    "day_rate": 1200,
+    "experience_years": 7,
+    "equipment": [
+      "Sony A7 IV",
+      "24-70mm f/2.8",
+      "Profoto B10 kit"
+    ],
+    "bio": "Photographer based in Boca Raton with 7 years of fashion work. Known for a bright and airy look.",
+    "rating": 4.7,
+    "completed_projects": 24,
+    "portfolio": [
+      {
+        "id": "tal_004_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_004-1/1200/800",
+        "title": "Fashion work 1"
+      },
+      {
+        "id": "tal_004_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_004-2/1200/800",
+        "title": "Fashion work 2"
+      },
+      {
+        "id": "tal_004_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_004-3/1200/800",
+        "title": "Fashion work 3"
+      },
+      {
+        "id": "tal_004_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_004-4/1200/800",
+        "title": "Fashion work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-04",
+      "2026-12-21",
+      "2026-12-25"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_005",
+    "first_name": "Isaac",
+    "last_name": "Brennan",
+    "display_name": "Isaac B.",
+    "role": "Photographer",
+    "specialty": "Real Estate",
+    "secondary_specialties": [
+      "Fashion",
+      "Food"
+    ],
+    "city": "Miami Beach, FL",
+    "styles": [
+      "moody",
+      "bright and airy",
+      "minimal"
+    ],
+    "day_rate": 450,
+    "experience_years": 3,
+    "equipment": [
+      "DJI Mini 4 Pro (licensed)",
+      "85mm f/1.4",
+      "Sony A7 IV"
+    ],
+    "bio": "Photographer based in Miami Beach with 3 years of real estate work. Known for a moody look.",
+    "rating": null,
+    "completed_projects": 6,
+    "portfolio": [
+      {
+        "id": "tal_005_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_005-1/1200/800",
+        "title": "Real Estate work 1"
+      },
+      {
+        "id": "tal_005_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_005-2/1200/800",
+        "title": "Real Estate work 2"
+      },
+      {
+        "id": "tal_005_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_005-3/1200/800",
+        "title": "Real Estate work 3"
+      },
+      {
+        "id": "tal_005_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_005-4/1200/800",
+        "title": "Real Estate work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-16",
+      "2026-11-18",
+      "2026-12-05",
+      "2026-12-13",
+      "2026-12-22",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_006",
+    "first_name": "Owen",
+    "last_name": "Haddad",
+    "display_name": "Owen H.",
+    "role": "Photographer",
+    "specialty": "Event",
+    "secondary_specialties": [
+      "Real Estate",
+      "Fashion"
+    ],
+    "city": "Hollywood, FL",
+    "styles": [
+      "warm film",
+      "editorial",
+      "documentary"
+    ],
+    "day_rate": 1500,
+    "experience_years": 12,
+    "equipment": [
+      "85mm f/1.4",
+      "Backdrop kit",
+      "Sony A7 IV"
+    ],
+    "bio": "Photographer based in Hollywood with 12 years of event work. Known for a warm film look.",
+    "rating": 4.4,
+    "completed_projects": 56,
+    "portfolio": [
+      {
+        "id": "tal_006_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_006-1/1200/800",
+        "title": "Event work 1"
+      },
+      {
+        "id": "tal_006_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_006-2/1200/800",
+        "title": "Event work 2"
+      },
+      {
+        "id": "tal_006_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_006-3/1200/800",
+        "title": "Event work 3"
+      },
+      {
+        "id": "tal_006_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_006-4/1200/800",
+        "title": "Event work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-04",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_007",
+    "first_name": "Ava",
+    "last_name": "Sato",
+    "display_name": "Ava S.",
+    "role": "Photographer",
+    "specialty": "Food",
+    "secondary_specialties": [
+      "Wedding",
+      "Commercial"
+    ],
+    "city": "Miami, FL",
+    "styles": [
+      "warm film",
+      "editorial",
+      "documentary"
+    ],
+    "day_rate": 600,
+    "experience_years": 9,
+    "equipment": [
+      "Canon R5",
+      "24-70mm f/2.8",
+      "85mm f/1.4"
+    ],
+    "bio": "Photographer based in Miami with 9 years of food work. Known for a warm film look.",
+    "rating": 4.6,
+    "completed_projects": 57,
+    "portfolio": [
+      {
+        "id": "tal_007_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_007-1/1200/800",
+        "title": "Food work 1"
+      },
+      {
+        "id": "tal_007_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_007-2/1200/800",
+        "title": "Food work 2"
+      },
+      {
+        "id": "tal_007_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_007-3/1200/800",
+        "title": "Food work 3"
+      },
+      {
+        "id": "tal_007_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_007-4/1200/800",
+        "title": "Food work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-27",
+      "2026-12-17",
+      "2026-12-26"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_008",
+    "first_name": "Isaac",
+    "last_name": "Mbeki",
+    "display_name": "Isaac M.",
+    "role": "Photographer",
+    "specialty": "Wedding",
+    "secondary_specialties": [
+      "Real Estate",
+      "Event"
+    ],
+    "city": "Fort Lauderdale, FL",
+    "styles": [
+      "documentary",
+      "warm film",
+      "moody"
+    ],
+    "day_rate": 750,
+    "experience_years": 3,
+    "equipment": [
+      "85mm f/1.4",
+      "DJI Mini 4 Pro (licensed)",
+      "Sony A7 IV"
+    ],
+    "bio": "Photographer based in Fort Lauderdale with 3 years of wedding work. Known for a documentary look.",
+    "rating": 4.3,
+    "completed_projects": 48,
+    "portfolio": [
+      {
+        "id": "tal_008_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_008-1/1200/800",
+        "title": "Wedding work 1"
+      },
+      {
+        "id": "tal_008_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_008-2/1200/800",
+        "title": "Wedding work 2"
+      },
+      {
+        "id": "tal_008_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_008-3/1200/800",
+        "title": "Wedding work 3"
+      },
+      {
+        "id": "tal_008_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_008-4/1200/800",
+        "title": "Wedding work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-11",
+      "2026-11-21",
+      "2026-12-02",
+      "2026-12-20",
+      "2026-12-21",
+      "2026-12-27"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_009",
+    "first_name": "Hana",
+    "last_name": "Okonjo",
+    "display_name": "Hana O.",
+    "role": "Photographer",
+    "specialty": "Commercial",
+    "secondary_specialties": [
+      "Fashion",
+      "Product"
+    ],
+    "city": "West Palm Beach, FL",
+    "styles": [
+      "warm film",
+      "bold color",
+      "high fashion"
+    ],
+    "day_rate": 1500,
+    "experience_years": 10,
+    "equipment": [
+      "Nikon Z8",
+      "Profoto B10 kit",
+      "24-70mm f/2.8"
+    ],
+    "bio": "Photographer based in West Palm Beach with 10 years of commercial work. Known for a warm film look.",
+    "rating": 4.7,
+    "completed_projects": 14,
+    "portfolio": [
+      {
+        "id": "tal_009_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_009-1/1200/800",
+        "title": "Commercial work 1"
+      },
+      {
+        "id": "tal_009_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_009-2/1200/800",
+        "title": "Commercial work 2"
+      },
+      {
+        "id": "tal_009_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_009-3/1200/800",
+        "title": "Commercial work 3"
+      },
+      {
+        "id": "tal_009_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_009-4/1200/800",
+        "title": "Commercial work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-25",
+      "2026-11-26",
+      "2026-12-02",
+      "2026-12-05",
+      "2026-12-27"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_010",
+    "first_name": "Ava",
+    "last_name": "Ferreira",
+    "display_name": "Ava F.",
+    "role": "Photographer",
+    "specialty": "Product",
+    "secondary_specialties": [
+      "Fashion",
+      "Food"
+    ],
+    "city": "Coral Gables, FL",
+    "styles": [
+      "warm film",
+      "high fashion",
+      "minimal"
+    ],
+    "day_rate": 600,
+    "experience_years": 7,
+    "equipment": [
+      "24-70mm f/2.8",
+      "85mm f/1.4",
+      "Backdrop kit"
+    ],
+    "bio": "Photographer based in Coral Gables with 7 years of product work. Known for a warm film look.",
+    "rating": null,
+    "completed_projects": 18,
+    "portfolio": [
+      {
+        "id": "tal_010_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_010-1/1200/800",
+        "title": "Product work 1"
+      },
+      {
+        "id": "tal_010_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_010-2/1200/800",
+        "title": "Product work 2"
+      },
+      {
+        "id": "tal_010_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_010-3/1200/800",
+        "title": "Product work 3"
+      },
+      {
+        "id": "tal_010_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_010-4/1200/800",
+        "title": "Product work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-14",
+      "2026-11-23",
+      "2026-12-09"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_011",
+    "first_name": "Rosa",
+    "last_name": "Kaplan",
+    "display_name": "Rosa K.",
+    "role": "Photographer",
+    "specialty": "Portrait",
+    "secondary_specialties": [
+      "Product",
+      "Fashion"
+    ],
+    "city": "Boca Raton, FL",
+    "styles": [
+      "documentary",
+      "bright and airy",
+      "high fashion"
+    ],
+    "day_rate": 600,
+    "experience_years": 14,
+    "equipment": [
+      "Sony A7 IV",
+      "24-70mm f/2.8",
+      "Backdrop kit"
+    ],
+    "bio": "Photographer based in Boca Raton with 14 years of portrait work. Known for a documentary look.",
+    "rating": 4.5,
+    "completed_projects": 28,
+    "portfolio": [
+      {
+        "id": "tal_011_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_011-1/1200/800",
+        "title": "Portrait work 1"
+      },
+      {
+        "id": "tal_011_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_011-2/1200/800",
+        "title": "Portrait work 2"
+      },
+      {
+        "id": "tal_011_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_011-3/1200/800",
+        "title": "Portrait work 3"
+      },
+      {
+        "id": "tal_011_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_011-4/1200/800",
+        "title": "Portrait work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-11",
+      "2026-11-21",
+      "2026-11-30"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_012",
+    "first_name": "Isaac",
+    "last_name": "Hwang",
+    "display_name": "Isaac H.",
+    "role": "Videographer",
+    "specialty": "Real Estate",
+    "secondary_specialties": [
+      "Music Video",
+      "Social Media"
+    ],
+    "city": "Miami Beach, FL",
+    "styles": [
+      "bold color",
+      "minimal",
+      "moody"
+    ],
+    "day_rate": 1000,
+    "experience_years": 5,
+    "equipment": [
+      "Sony FX3",
+      "Slider",
+      "DJI RS 4 gimbal"
+    ],
+    "bio": "Videographer based in Miami Beach with 5 years of real estate work. Known for a bold color look.",
+    "rating": 4.9,
+    "completed_projects": 27,
+    "portfolio": [
+      {
+        "id": "tal_012_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_012-1/1200/800",
+        "title": "Real Estate work 1"
+      },
+      {
+        "id": "tal_012_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_012-2/1200/800",
+        "title": "Real Estate work 2"
+      },
+      {
+        "id": "tal_012_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_012-3/1200/800",
+        "title": "Real Estate work 3"
+      },
+      {
+        "id": "tal_012_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_012-4/1200/800",
+        "title": "Real Estate work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-14",
+      "2026-11-27",
+      "2026-12-07",
+      "2026-12-10",
+      "2026-12-23"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_013",
+    "first_name": "Mateo",
+    "last_name": "Brennan",
+    "display_name": "Mateo B.",
+    "role": "Videographer",
+    "specialty": "Corporate",
+    "secondary_specialties": [
+      "Social Media",
+      "Event"
+    ],
+    "city": "Hollywood, FL",
+    "styles": [
+      "minimal",
+      "warm film",
+      "high fashion"
+    ],
+    "day_rate": 1400,
+    "experience_years": 7,
+    "equipment": [
+      "Rode wireless mics",
+      "Aputure 300d kit",
+      "Sony FX3"
+    ],
+    "bio": "Videographer based in Hollywood with 7 years of corporate work. Known for a minimal look.",
+    "rating": 4.6,
+    "completed_projects": 40,
+    "portfolio": [
+      {
+        "id": "tal_013_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_013-1/1200/800",
+        "title": "Corporate work 1"
+      },
+      {
+        "id": "tal_013_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_013-2/1200/800",
+        "title": "Corporate work 2"
+      },
+      {
+        "id": "tal_013_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_013-3/1200/800",
+        "title": "Corporate work 3"
+      },
+      {
+        "id": "tal_013_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_013-4/1200/800",
+        "title": "Corporate work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-04",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_014",
+    "first_name": "Zoe",
+    "last_name": "Hwang",
+    "display_name": "Zoe H.",
+    "role": "Videographer",
+    "specialty": "Documentary",
+    "secondary_specialties": [
+      "Event",
+      "Corporate"
+    ],
+    "city": "Miami, FL",
+    "styles": [
+      "bold color",
+      "bright and airy",
+      "moody"
+    ],
+    "day_rate": 800,
+    "experience_years": 13,
+    "equipment": [
+      "Slider",
+      "DJI RS 4 gimbal",
+      "DJI Mavic 3 (licensed)"
+    ],
+    "bio": "Videographer based in Miami with 13 years of documentary work. Known for a bold color look.",
+    "rating": 4.7,
+    "completed_projects": 16,
+    "portfolio": [
+      {
+        "id": "tal_014_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_014-1/1200/800",
+        "title": "Documentary work 1"
+      },
+      {
+        "id": "tal_014_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_014-2/1200/800",
+        "title": "Documentary work 2"
+      },
+      {
+        "id": "tal_014_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_014-3/1200/800",
+        "title": "Documentary work 3"
+      },
+      {
+        "id": "tal_014_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_014-4/1200/800",
+        "title": "Documentary work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-23",
+      "2026-12-13"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_015",
+    "first_name": "Amara",
+    "last_name": "Vargas",
+    "display_name": "Amara V.",
+    "role": "Videographer",
+    "specialty": "Commercial",
+    "secondary_specialties": [
+      "Event",
+      "Documentary"
+    ],
+    "city": "Fort Lauderdale, FL",
+    "styles": [
+      "high fashion",
+      "moody",
+      "documentary"
+    ],
+    "day_rate": 2200,
+    "experience_years": 2,
+    "equipment": [
+      "Slider",
+      "DJI RS 4 gimbal",
+      "DJI Mavic 3 (licensed)"
+    ],
+    "bio": "Videographer based in Fort Lauderdale with 2 years of commercial work. Known for a high fashion look.",
+    "rating": null,
+    "completed_projects": 31,
+    "portfolio": [
+      {
+        "id": "tal_015_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_015-1/1200/800",
+        "title": "Commercial work 1"
+      },
+      {
+        "id": "tal_015_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_015-2/1200/800",
+        "title": "Commercial work 2"
+      },
+      {
+        "id": "tal_015_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_015-3/1200/800",
+        "title": "Commercial work 3"
+      },
+      {
+        "id": "tal_015_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_015-4/1200/800",
+        "title": "Commercial work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-22",
+      "2026-11-23",
+      "2026-11-30",
+      "2026-12-03",
+      "2026-12-24",
+      "2026-12-30"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_016",
+    "first_name": "Dev",
+    "last_name": "Park",
+    "display_name": "Dev P.",
+    "role": "Videographer",
+    "specialty": "Social Media",
+    "secondary_specialties": [
+      "Real Estate",
+      "Event"
+    ],
+    "city": "West Palm Beach, FL",
+    "styles": [
+      "bold color",
+      "bright and airy",
+      "high fashion"
+    ],
+    "day_rate": 1400,
+    "experience_years": 4,
+    "equipment": [
+      "Aputure 300d kit",
+      "DJI RS 4 gimbal",
+      "Rode wireless mics"
+    ],
+    "bio": "Videographer based in West Palm Beach with 4 years of social media work. Known for a bold color look.",
+    "rating": 4.9,
+    "completed_projects": 24,
+    "portfolio": [
+      {
+        "id": "tal_016_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_016-1/1200/800",
+        "title": "Social Media work 1"
+      },
+      {
+        "id": "tal_016_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_016-2/1200/800",
+        "title": "Social Media work 2"
+      },
+      {
+        "id": "tal_016_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_016-3/1200/800",
+        "title": "Social Media work 3"
+      },
+      {
+        "id": "tal_016_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_016-4/1200/800",
+        "title": "Social Media work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-14",
+      "2026-11-16",
+      "2026-11-28",
+      "2026-12-05",
+      "2026-12-07"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_017",
+    "first_name": "Mateo",
+    "last_name": "Kaplan",
+    "display_name": "Mateo K.",
+    "role": "Videographer",
+    "specialty": "Music Video",
+    "secondary_specialties": [
+      "Event",
+      "Real Estate"
+    ],
+    "city": "Coral Gables, FL",
+    "styles": [
+      "high fashion",
+      "editorial",
+      "cinematic"
+    ],
+    "day_rate": 1800,
+    "experience_years": 13,
+    "equipment": [
+      "DJI Mavic 3 (licensed)",
+      "DJI RS 4 gimbal",
+      "Sony FX3"
+    ],
+    "bio": "Videographer based in Coral Gables with 13 years of music video work. Known for a high fashion look.",
+    "rating": 4.4,
+    "completed_projects": 2,
+    "portfolio": [
+      {
+        "id": "tal_017_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_017-1/1200/800",
+        "title": "Music Video work 1"
+      },
+      {
+        "id": "tal_017_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_017-2/1200/800",
+        "title": "Music Video work 2"
+      },
+      {
+        "id": "tal_017_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_017-3/1200/800",
+        "title": "Music Video work 3"
+      },
+      {
+        "id": "tal_017_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_017-4/1200/800",
+        "title": "Music Video work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-17",
+      "2026-11-18",
+      "2026-12-10",
+      "2026-12-13",
+      "2026-12-22"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_018",
+    "first_name": "Dev",
+    "last_name": "Ilić",
+    "display_name": "Dev I.",
+    "role": "Videographer",
+    "specialty": "Event",
+    "secondary_specialties": [
+      "Corporate",
+      "Commercial"
+    ],
+    "city": "Boca Raton, FL",
+    "styles": [
+      "bright and airy",
+      "cinematic",
+      "minimal"
+    ],
+    "day_rate": 800,
+    "experience_years": 14,
+    "equipment": [
+      "Slider",
+      "Rode wireless mics",
+      "Canon C70"
+    ],
+    "bio": "Videographer based in Boca Raton with 14 years of event work. Known for a bright and airy look.",
+    "rating": 4.8,
+    "completed_projects": 11,
+    "portfolio": [
+      {
+        "id": "tal_018_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_018-1/1200/800",
+        "title": "Event work 1"
+      },
+      {
+        "id": "tal_018_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_018-2/1200/800",
+        "title": "Event work 2"
+      },
+      {
+        "id": "tal_018_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_018-3/1200/800",
+        "title": "Event work 3"
+      },
+      {
+        "id": "tal_018_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_018-4/1200/800",
+        "title": "Event work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-13",
+      "2026-11-15",
+      "2026-11-29",
+      "2026-11-30",
+      "2026-12-20"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_019",
+    "first_name": "Zoe",
+    "last_name": "Lowell",
+    "display_name": "Zoe L.",
+    "role": "Videographer",
+    "specialty": "Real Estate",
+    "secondary_specialties": [
+      "Commercial",
+      "Corporate"
+    ],
+    "city": "Miami Beach, FL",
+    "styles": [
+      "moody",
+      "bold color",
+      "bright and airy"
+    ],
+    "day_rate": 650,
+    "experience_years": 5,
+    "equipment": [
+      "Sony FX3",
+      "Canon C70",
+      "Slider"
+    ],
+    "bio": "Videographer based in Miami Beach with 5 years of real estate work. Known for a moody look.",
+    "rating": 4.5,
+    "completed_projects": 52,
+    "portfolio": [
+      {
+        "id": "tal_019_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_019-1/1200/800",
+        "title": "Real Estate work 1"
+      },
+      {
+        "id": "tal_019_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_019-2/1200/800",
+        "title": "Real Estate work 2"
+      },
+      {
+        "id": "tal_019_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_019-3/1200/800",
+        "title": "Real Estate work 3"
+      },
+      {
+        "id": "tal_019_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_019-4/1200/800",
+        "title": "Real Estate work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-20",
+      "2026-11-22",
+      "2026-12-05",
+      "2026-12-07",
+      "2026-12-21"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_020",
+    "first_name": "Luis",
+    "last_name": "Sato",
+    "display_name": "Luis S.",
+    "role": "Videographer",
+    "specialty": "Corporate",
+    "secondary_specialties": [
+      "Event",
+      "Commercial"
+    ],
+    "city": "Hollywood, FL",
+    "styles": [
+      "moody",
+      "documentary",
+      "warm film"
+    ],
+    "day_rate": 2200,
+    "experience_years": 4,
+    "equipment": [
+      "Sony FX3",
+      "DJI RS 4 gimbal",
+      "Slider"
+    ],
+    "bio": "Videographer based in Hollywood with 4 years of corporate work. Known for a moody look.",
+    "rating": null,
+    "completed_projects": 25,
+    "portfolio": [
+      {
+        "id": "tal_020_m1",
+        "type": "video",
+        "url": "https://picsum.photos/seed/tal_020-1/1200/800",
+        "title": "Corporate work 1"
+      },
+      {
+        "id": "tal_020_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_020-2/1200/800",
+        "title": "Corporate work 2"
+      },
+      {
+        "id": "tal_020_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_020-3/1200/800",
+        "title": "Corporate work 3"
+      },
+      {
+        "id": "tal_020_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_020-4/1200/800",
+        "title": "Corporate work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-06",
+      "2026-12-10"
+    ],
+    "accepts_package_bookings": true,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_021",
+    "first_name": "Caleb",
+    "last_name": "Sato",
+    "display_name": "Caleb S.",
+    "role": "AI Artist",
+    "specialty": "AI Product Visualization",
+    "secondary_specialties": [
+      "AI Video",
+      "AI Concept Art"
+    ],
+    "city": "Miami, FL",
+    "styles": [
+      "documentary",
+      "high fashion",
+      "cinematic"
+    ],
+    "day_rate": 950,
+    "experience_years": 11,
+    "equipment": [
+      "Workstation (RTX 4090)",
+      "Licensed model suite",
+      "Wacom Cintiq"
+    ],
+    "bio": "AI Artist based in Miami with 11 years of ai product visualization work. Known for a documentary look.",
+    "rating": 4.8,
+    "completed_projects": 5,
+    "portfolio": [
+      {
+        "id": "tal_021_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_021-1/1200/800",
+        "title": "AI Product Visualization work 1"
+      },
+      {
+        "id": "tal_021_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_021-2/1200/800",
+        "title": "AI Product Visualization work 2"
+      },
+      {
+        "id": "tal_021_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_021-3/1200/800",
+        "title": "AI Product Visualization work 3"
+      },
+      {
+        "id": "tal_021_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_021-4/1200/800",
+        "title": "AI Product Visualization work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-16",
+      "2026-12-20"
+    ],
+    "accepts_package_bookings": false,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_022",
+    "first_name": "Amara",
+    "last_name": "Sato",
+    "display_name": "Amara S.",
+    "role": "AI Artist",
+    "specialty": "AI Concept Art",
+    "secondary_specialties": [
+      "AI Product Visualization",
+      "AI Video"
+    ],
+    "city": "Fort Lauderdale, FL",
+    "styles": [
+      "clean commercial",
+      "minimal",
+      "cinematic"
+    ],
+    "day_rate": 700,
+    "experience_years": 7,
+    "equipment": [
+      "Wacom Cintiq",
+      "Licensed model suite",
+      "Workstation (RTX 4090)"
+    ],
+    "bio": "AI Artist based in Fort Lauderdale with 7 years of ai concept art work. Known for a clean commercial look.",
+    "rating": 4.8,
+    "completed_projects": 9,
+    "portfolio": [
+      {
+        "id": "tal_022_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_022-1/1200/800",
+        "title": "AI Concept Art work 1"
+      },
+      {
+        "id": "tal_022_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_022-2/1200/800",
+        "title": "AI Concept Art work 2"
+      },
+      {
+        "id": "tal_022_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_022-3/1200/800",
+        "title": "AI Concept Art work 3"
+      },
+      {
+        "id": "tal_022_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_022-4/1200/800",
+        "title": "AI Concept Art work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-11",
+      "2026-11-29",
+      "2026-12-10",
+      "2026-12-12",
+      "2026-12-19"
+    ],
+    "accepts_package_bookings": false,
+    "account_ready": true,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_023",
+    "first_name": "Jonah",
+    "last_name": "Moreau",
+    "display_name": "Jonah M.",
+    "role": "AI Artist",
+    "specialty": "AI Video",
+    "secondary_specialties": [
+      "AI Concept Art",
+      "AI Product Visualization"
+    ],
+    "city": "West Palm Beach, FL",
+    "styles": [
+      "bold color",
+      "documentary",
+      "cinematic"
+    ],
+    "day_rate": 550,
+    "experience_years": 11,
+    "equipment": [
+      "Wacom Cintiq",
+      "Licensed model suite",
+      "Workstation (RTX 4090)"
+    ],
+    "bio": "AI Artist based in West Palm Beach with 11 years of ai video work. Known for a bold color look.",
+    "rating": 4.4,
+    "completed_projects": 20,
+    "portfolio": [
+      {
+        "id": "tal_023_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_023-1/1200/800",
+        "title": "AI Video work 1"
+      },
+      {
+        "id": "tal_023_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_023-2/1200/800",
+        "title": "AI Video work 2"
+      },
+      {
+        "id": "tal_023_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_023-3/1200/800",
+        "title": "AI Video work 3"
+      },
+      {
+        "id": "tal_023_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_023-4/1200/800",
+        "title": "AI Video work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-12-04",
+      "2026-12-09",
+      "2026-12-19",
+      "2026-12-21",
+      "2026-12-22",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": false,
+    "account_ready": false,
+    "portfolio_published": true
+  },
+  {
+    "id": "tal_024",
+    "first_name": "Felix",
+    "last_name": "Brennan",
+    "display_name": "Felix B.",
+    "role": "AI Artist",
+    "specialty": "AI Brand Design",
+    "secondary_specialties": [
+      "AI Video",
+      "AI Concept Art"
+    ],
+    "city": "Coral Gables, FL",
+    "styles": [
+      "editorial",
+      "bold color",
+      "clean commercial"
+    ],
+    "day_rate": 950,
+    "experience_years": 14,
+    "equipment": [
+      "Licensed model suite",
+      "Workstation (RTX 4090)",
+      "Wacom Cintiq"
+    ],
+    "bio": "AI Artist based in Coral Gables with 14 years of ai brand design work. Known for a editorial look.",
+    "rating": 4.9,
+    "completed_projects": 28,
+    "portfolio": [
+      {
+        "id": "tal_024_m1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_024-1/1200/800",
+        "title": "AI Brand Design work 1"
+      },
+      {
+        "id": "tal_024_m2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_024-2/1200/800",
+        "title": "AI Brand Design work 2"
+      },
+      {
+        "id": "tal_024_m3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_024-3/1200/800",
+        "title": "AI Brand Design work 3"
+      },
+      {
+        "id": "tal_024_m4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/tal_024-4/1200/800",
+        "title": "AI Brand Design work 4"
+      }
+    ],
+    "booked_dates": [
+      "2026-11-12",
+      "2026-11-13",
+      "2026-11-14",
+      "2026-11-24",
+      "2026-12-07",
+      "2026-12-28"
+    ],
+    "accepts_package_bookings": false,
+    "account_ready": true,
+    "portfolio_published": false
+  }
+]

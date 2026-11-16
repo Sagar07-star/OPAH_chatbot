@@ -1,0 +1,471 @@
+[
+  {
+    "name": "get_account_summary",
+    "description": "[read] Everything that needs the client's attention across all their projects.",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "list_projects",
+    "description": "[read] The client's projects, optionally filtered by status.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_project",
+    "description": "[read] One project with bookings, deliverable folders, documents and open proposals.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "search_talent",
+    "description": "[read] Find and rank creatives; each result explains why it matched.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "role": {
+          "type": "string",
+          "description": "Photographer, Videographer or AI Artist (any wording)"
+        },
+        "location": {
+          "type": "string",
+          "description": "City or neighbourhood"
+        },
+        "specialty": {
+          "type": "string"
+        },
+        "style": {
+          "type": "string"
+        },
+        "budget_max": {
+          "type": "number",
+          "description": "Max day rate, USD"
+        },
+        "date": {
+          "type": "string",
+          "description": "YYYY-MM-DD; excludes creatives booked that day"
+        },
+        "limit": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_talent_profile",
+    "description": "[read] One creative's profile, portfolio and unavailable dates.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "talent_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "talent_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_project_options",
+    "description": "[read] Allowed codes for project_type, budget_range, deliverables, lighting_styles.",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "list_packages",
+    "description": "[read] Fixed-price packages, add-ons and prices.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_project_messages",
+    "description": "[read] The project's conversation between client and creative.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "limit": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "list_deliverables",
+    "description": "[read] Deliverable folders, files and review state.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "get_cancellation_preview",
+    "description": "[read] The refund the cancellation policy gives if cancelled now.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "list_boards",
+    "description": "[read] The client's inspiration boards.",
+    "parameters": {
+      "type": "object",
+      "properties": {},
+      "required": [],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "create_project",
+    "description": "[stage] Stage a new draft project. Applies only when the client approves.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "fields": {
+          "type": "object",
+          "description": "Field name to new value. Fields: budget, budget_range, client_notes, deliverables, deliverables_due_date, description, duration_hours, end_date, lighting_styles, location, name, point_of_contact, priority, project_type, role, scheduled_time, specialty, start_date. Dates YYYY-MM-DD, call time HH:MM (24h), budget in USD, codes from get_project_options."
+        }
+      },
+      "required": [
+        "fields"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "update_project",
+    "description": "[stage] Stage field changes, all fields from one message in one call.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "changes": {
+          "type": "object",
+          "description": "Field name to new value. Fields: budget, budget_range, client_notes, deliverables, deliverables_due_date, description, duration_hours, end_date, lighting_styles, location, name, point_of_contact, priority, project_type, role, scheduled_time, specialty, start_date. Dates YYYY-MM-DD, call time HH:MM (24h), budget in USD, codes from get_project_options."
+        }
+      },
+      "required": [
+        "project_id",
+        "changes"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "add_talent_to_project",
+    "description": "[stage] Stage inviting a creative. Checks every booking rule first.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "talent_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "talent_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "respond_to_counter_offer",
+    "description": "[stage] Stage the client's answer to a counter-offer.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "booking_id": {
+          "type": "string"
+        },
+        "decision": {
+          "type": "string",
+          "enum": [
+            "accept",
+            "deny"
+          ]
+        }
+      },
+      "required": [
+        "project_id",
+        "booking_id",
+        "decision"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "review_deliverable",
+    "description": "[stage] Stage approving a folder or requesting a revision.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "folder_id": {
+          "type": "string"
+        },
+        "decision": {
+          "type": "string",
+          "enum": [
+            "approve",
+            "request_revision"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "folder_id",
+        "decision"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "share_document",
+    "description": "[stage] Stage sharing a planning document with the booked creative.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "document_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "document_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "create_board",
+    "description": "[stage] Stage a new inspiration board, optionally linked to a project.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "prepare_checkout",
+    "description": "[handoff] Open checkout with a price summary. Never charges anything.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "project_ids"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "prepare_package_booking",
+    "description": "[handoff] Open package checkout, prefilled.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "package_id": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "call_time": {
+          "type": "string"
+        },
+        "add_ons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "package_id",
+        "address",
+        "date",
+        "call_time"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "prepare_cancellation",
+    "description": "[handoff] Open the cancel screen with the refund shown.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        }
+      },
+      "required": [
+        "project_id"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "draft_message",
+    "description": "[handoff] Open the project conversation with a message typed but not sent.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "text"
+      ],
+      "additionalProperties": false
+    }
+  },
+  {
+    "name": "draft_review",
+    "description": "[handoff] Open the review form, prefilled.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "project_id": {
+          "type": "string",
+          "description": "Project id, e.g. prj_1002"
+        },
+        "rating": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 5
+        },
+        "text": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "rating",
+        "text"
+      ],
+      "additionalProperties": false
+    }
+  }
+]

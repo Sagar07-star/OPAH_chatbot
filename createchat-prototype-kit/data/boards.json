@@ -1,0 +1,82 @@
+[
+  {
+    "id": "brd_001",
+    "client_id": "clt_001",
+    "title": "Dewy summer skin",
+    "project_ids": [
+      "prj_1006"
+    ],
+    "items": [
+      {
+        "id": "brd_001_i1",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-1/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-2/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i3",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-3/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i4",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-4/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i5",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-5/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i6",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-6/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i7",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-7/900/1200",
+        "note": null
+      },
+      {
+        "id": "brd_001_i8",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd001-8/900/1200",
+        "note": null
+      }
+    ]
+  },
+  {
+    "id": "brd_002",
+    "client_id": "clt_001",
+    "title": "Launch film references",
+    "project_ids": [
+      "prj_1004"
+    ],
+    "items": [
+      {
+        "id": "brd_002_i1",
+        "type": "video",
+        "url": "https://videos.example.com/ref-1",
+        "note": "Love the slow macro drip"
+      },
+      {
+        "id": "brd_002_i2",
+        "type": "image",
+        "url": "https://picsum.photos/seed/brd002-2/1200/800",
+        "note": null
+      }
+    ]
+  }
+]

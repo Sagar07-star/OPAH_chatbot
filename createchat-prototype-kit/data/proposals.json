@@ -1,0 +1,19 @@
+[
+  {
+    "proposal_id": "prop_0001",
+    "kind": "update_project",
+    "client_id": "clt_001",
+    "project_id": "prj_1002",
+    "summary": "Change 1 field on Spring Lookbook",
+    "changes": [
+      {
+        "field": "duration_hours",
+        "label": "Duration (hours)",
+        "old": 6,
+        "new": 7
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-11-15"
+  }
+]

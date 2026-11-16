@@ -1,0 +1,111 @@
+[
+  {
+    "id": "bkg_3001",
+    "project_id": "prj_1003",
+    "talent_id": "tal_003",
+    "talent_name": "Jonah F.",
+    "role": "Photographer",
+    "status": "countered",
+    "rate": 900,
+    "counter_rate": 1150,
+    "counter_message": "Three setups in three hours needs an assistant; 1150 covers it.",
+    "pending_change": null,
+    "responded_at": "2026-11-15"
+  },
+  {
+    "id": "bkg_4001",
+    "project_id": "prj_1004",
+    "talent_id": "tal_014",
+    "talent_name": "Zoe H.",
+    "role": "Videographer",
+    "status": "accepted",
+    "rate": 3200,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-11-07"
+  },
+  {
+    "id": "bkg_5001",
+    "project_id": "prj_1005",
+    "talent_id": "tal_006",
+    "talent_name": "Owen H.",
+    "role": "Photographer",
+    "status": "accepted",
+    "rate": 1400,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-11-02"
+  },
+  {
+    "id": "bkg_6001",
+    "project_id": "prj_1006",
+    "talent_id": "tal_001",
+    "talent_name": "Hana L.",
+    "role": "Photographer",
+    "status": "accepted",
+    "rate": 4800,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-10-17"
+  },
+  {
+    "id": "bkg_7001",
+    "project_id": "prj_1007",
+    "talent_id": "tal_002",
+    "talent_name": "Caleb B.",
+    "role": "Photographer",
+    "status": "accepted",
+    "rate": 3600,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-08-28"
+  },
+  {
+    "id": "bkg_2201",
+    "project_id": "prj_2002",
+    "talent_id": "tal_011",
+    "talent_name": "Rosa K.",
+    "role": "Photographer",
+    "status": "accepted",
+    "rate": 249,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": {
+      "kind": "date",
+      "old": "2026-11-23",
+      "new": "2026-11-24",
+      "awaiting": "talent"
+    },
+    "responded_at": "2026-11-13"
+  },
+  {
+    "id": "bkg_2301",
+    "project_id": "prj_2003",
+    "talent_id": "tal_005",
+    "talent_name": "Isaac B.",
+    "role": "Photographer",
+    "status": "accepted",
+    "rate": 349,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-10-20"
+  },
+  {
+    "id": "bkg_2401",
+    "project_id": "prj_2004",
+    "talent_id": "tal_012",
+    "talent_name": "Isaac H.",
+    "role": "Videographer",
+    "status": "accepted",
+    "rate": 1250,
+    "counter_rate": null,
+    "counter_message": null,
+    "pending_change": null,
+    "responded_at": "2026-11-15"
+  }
+]

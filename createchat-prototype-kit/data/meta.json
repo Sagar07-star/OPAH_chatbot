@@ -1,0 +1,38 @@
+{
+  "dataset_today": "2026-11-16",
+  "seed": 20261116,
+  "currency": "USD",
+  "assistance_fee_rate": 0.105,
+  "timezone": "America/New_York",
+  "cities": {
+    "Miami, FL": {
+      "lat": 25.7617,
+      "lng": -80.1918
+    },
+    "Miami Beach, FL": {
+      "lat": 25.7907,
+      "lng": -80.13
+    },
+    "Coral Gables, FL": {
+      "lat": 25.7215,
+      "lng": -80.2684
+    },
+    "Fort Lauderdale, FL": {
+      "lat": 26.1224,
+      "lng": -80.1373
+    },
+    "Hollywood, FL": {
+      "lat": 26.0112,
+      "lng": -80.1495
+    },
+    "Boca Raton, FL": {
+      "lat": 26.3683,
+      "lng": -80.1289
+    },
+    "West Palm Beach, FL": {
+      "lat": 26.7153,
+      "lng": -80.0534
+    }
+  },
+  "note": "Synthetic data. No real people, companies, addresses or accounts."
+}

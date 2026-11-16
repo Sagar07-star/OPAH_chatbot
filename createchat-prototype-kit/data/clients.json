@@ -1,0 +1,51 @@
+[
+  {
+    "id": "clt_001",
+    "first_name": "Maya",
+    "last_name": "Torres",
+    "email": "maya.torres@coralbloom.example.com",
+    "company": "Coral Bloom Skincare",
+    "member_since": "2025-09-22",
+    "typical_budget": {
+      "min": 1500,
+      "max": 6000
+    },
+    "preferred_roles": [
+      "Photographer",
+      "Videographer"
+    ],
+    "blocked_talent_ids": [
+      "tal_018"
+    ],
+    "notes": "Established brand client with a project in every status."
+  },
+  {
+    "id": "clt_002",
+    "first_name": "Jordan",
+    "last_name": "Pike",
+    "email": "jordan@pikeandco.example.com",
+    "company": "Pike & Co Realty",
+    "member_since": "2026-06-09",
+    "typical_budget": {
+      "min": 300,
+      "max": 1500
+    },
+    "preferred_roles": [
+      "Photographer"
+    ],
+    "blocked_talent_ids": [],
+    "notes": "Real estate agent who books fixed-price packages."
+  },
+  {
+    "id": "clt_003",
+    "first_name": "Sam",
+    "last_name": "Okafor",
+    "email": "sam.okafor@example.com",
+    "company": null,
+    "member_since": "2026-11-15",
+    "typical_budget": null,
+    "preferred_roles": [],
+    "blocked_talent_ids": [],
+    "notes": "Brand new client with no projects: the cold-start case."
+  }
+]
