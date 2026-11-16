@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://opah-chatbot-d36hgxbob-sagar-0d63.vercel.app/api/:path*"
+      "destination": "https://opah-chatbot.vercel.app/api/:path*"
     },
     {
       "source": "/(.*)",
