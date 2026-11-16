@@ -120,6 +120,8 @@ class Settings:
     anon_lifetime_uploads: int = field(default_factory=lambda: _int("ANON_LIFETIME_UPLOADS", 3))
     request_timeout_seconds: float = field(default_factory=lambda: _float("OPENAI_TIMEOUT_SECONDS", 75.0))
     cors_origins: tuple[str, ...] = (
+        "https://frontend-eight-dun-16.vercel.app",
+        "https://frontend-sagar-0d63.vercel.app",
         "http://localhost:5173",
         "http://127.0.0.1:5173",
         "http://localhost:4173",
